@@ -1,0 +1,129 @@
+.header {
+    background-color: rgb(143,83,40);
+
+}
+
+.nav-link {
+    color: antiquewhite;
+}
+.nav-link:hover {
+    color: darkgoldenrod;
+}.main {
+    background-color: rgb(143,83,40);
+}
+
+.main-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img {
+    position: relative;
+    z-index: 1;
+    width: 1200px;
+    height: 150px;
+}
+
+.carousel-text {
+    z-index: 20;
+    height: 120px;
+    width: 500px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: rgba(139, 69, 19, 0.5);
+}
+
+p {
+
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.links {
+    display: inline-flex;
+
+}
+
+.social-link {
+    display: flex;
+    justify-content: start;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.social{
+    width: 55px;
+    height: 55px;
+    margin: 10px 10px 10px 10px;
+    align-self: center;
+}
+
+.social:hover {
+    transform: rotate(360deg);
+    transition-duration: 1100ms;
+}
+
+.main-mail {
+    font-size: 27px;
+    background-color: rgba(233, 150, 122, 0.5);
+
+    height: 55px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.main-mail-div {
+    width: 60%;
+}
+
+
+
+
+.main-container {
+    border: 1px solid blue;
+
+}.catalog-menu{
+    border: 1px solid black;
+    padding-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 90%;
+}.catalog-area{
+    border: 1px solid darkred;
+
+}.product {
+    margin-top: 20px;
+    width: 15rem;
+}.site-wrapper {
+    background-color: rgb(64,37,18);
+}
+
+.agata {
+    position: relative;
+    min-width: 1100px;
+    width: 1400px;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0 auto -140px;
+    background-color: #fff;
+}
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.agata {
+    flex-direction: column;
+}
